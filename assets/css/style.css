@@ -56,3 +56,17 @@ nav ul li {
   left: 80%;
   background-color: aqua;
 }
+.page-wrapper {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+#about {
+  display: flex;
+  margin-top: 20px;
+  height: 150px;
+}
+#about h2 {
+  border-right: 3px solid black;
+  padding-right: 10px;
+  margin-right: 40px;
+}
