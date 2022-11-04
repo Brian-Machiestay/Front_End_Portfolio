@@ -65,8 +65,25 @@ nav ul li {
   margin-top: 20px;
   height: 150px;
 }
-#about h2 {
+#about h2, #work h2 {
   border-right: 3px solid black;
   padding-right: 10px;
   margin-right: 40px;
+}
+
+#work {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+#work h2 {
+  padding-right: 16px;
+}
+#all_works {
+  width: inherit;
+}
+.portfo_1 {
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/02-portfolio-4.jpg);
 }
