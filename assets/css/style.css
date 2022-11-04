@@ -44,3 +44,15 @@ nav ul li {
   border-bottom: 2px solid rgb(196, 212, 214);
   color: aqua;
 }
+
+.hero-banner div {
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 200px;
+}
+
+.hero-banner div h2 {
+  position: absolute;
+  top: 170px;
+  left: 80%;
+  background-color: aqua;
+}
