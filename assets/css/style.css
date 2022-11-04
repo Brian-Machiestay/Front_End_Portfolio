@@ -43,20 +43,21 @@ nav {
 nav ul a {
   margin: 0 15px;
   border-bottom: 2px solid rgb(196, 212, 214);
-  color: aqua;
+  color: rgb(74, 184, 184);
   text-decoration: none;
 }
 
 .hero-banner div {
   background-image: url(../images/02-hero-bg.jpg);
   height: 200px;
+  background-size: cover;
 }
 
 .hero-banner div h2 {
   position: absolute;
   top: 170px;
   left: 80%;
-  background-color: aqua;
+  background-color: rgb(83, 197, 197);
 }
 .page-wrapper {
   margin-left: 8%;
@@ -100,9 +101,9 @@ nav ul a {
   margin-top: 10px;
   width: 49%;
   height: 200px;
-  border: 2px solid aqua;
+  border: 2px solid rgb(43, 174, 174);
   background-image: url(../images/02-portfolio-1.jpg);
-  background-repeat: repeat-x;
+  background-size: cover;
 }
 .portfo_3 {
   background-image: url(../images/02-portfolio-2.jpg);
@@ -111,4 +112,7 @@ nav ul a {
 .portfo_4 {
   background-image: url(../images/02-portfolio-3.jpg);
   background-repeat: repeat;
+}
+.run_buddy {
+  background-image: url(../images/02-run-buddy.jpg);
 }
