@@ -23,7 +23,24 @@ p {
 }
 header {
   display: flex;
+  background-color: rgb(116, 116, 196);
+}
+header h1 {
+  background-color: aqua;
+  color: black;
+  height: 90%;
+  padding-left: 30px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
 }
 nav {
-  display: flex;
+  margin-left: auto;
+}
+
+nav ul li {
+  margin: 0 15px;
+  border-bottom: 2px solid rgb(196, 212, 214);
+  color: aqua;
 }
