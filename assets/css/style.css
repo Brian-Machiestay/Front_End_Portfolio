@@ -147,6 +147,9 @@ nav ul li {
   width: 200px;
   text-align: start;
 }
+#all_works a:hover, #all_works .portfo_1:hover {
+  opacity: 1;
+}
 span {
   font-size: 0.9em;
 }
