@@ -137,14 +137,20 @@ nav ul li {
   background-image: url(../images/02-run-buddy.jpg);
 }
 #all_works p {
-  text-align: center;
-  padding-top: 15px;
+  text-align: start;
   width: 105px;
   height: 50px;
   background-color: var(--grayishblue);
   margin-top: 25%;
   font-size: 1.1em;
+}#all_works .portfo_3 p {
+  width: 200px;
+  text-align: start;
 }
+span {
+  font-size: 0.9em;
+}
+
 #contact {
   display: flex;
   justify-content: space-between;
