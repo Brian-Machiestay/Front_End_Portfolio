@@ -116,6 +116,8 @@ nav ul li {
 }
 .portfo_2, .portfo_3, .portfo_4, .run_buddy {
   margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
   width: 49%;
   height: 200px;
   border: 2px solid var(--grayishblue);
@@ -136,11 +138,12 @@ nav ul li {
 }
 #all_works p {
   text-align: center;
-  padding: auto;
+  padding-top: 15px;
   width: 105px;
   height: 50px;
   background-color: var(--grayishblue);
   margin-top: 25%;
+  font-size: 1.1em;
 }
 #contact {
   display: flex;
