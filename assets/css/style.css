@@ -22,12 +22,16 @@ h6 {
 p {
   margin: 0;
 }
+:root {
+  --grayishblue: rgb(71, 184, 196);
+}
 header {
   display: flex;
-  background-color: rgb(116, 116, 196);
+  background-color: rgb(33, 33, 35);
+  width: inherit;
 }
 header h1 {
-  background-color: aqua;
+  background-color: var(--grayishblue);
   color: black;
   height: 90%;
   padding-left: 30px;
@@ -40,11 +44,14 @@ nav {
   margin-left: auto;
 }
 
-nav ul a {
+a {
   margin: 0 15px;
-  border-bottom: 2px solid rgb(196, 212, 214);
-  color: rgb(74, 184, 184);
+  border-bottom: 2px solid var(--grayishblue);
+  color: black;
   text-decoration: none;
+}
+nav ul li {
+  color: var(--grayishblue);
 }
 
 .hero-banner div {
@@ -55,9 +62,9 @@ nav ul a {
 
 .hero-banner div h2 {
   position: absolute;
-  top: 170px;
+  top: 30%;
   left: 80%;
-  background-color: rgb(83, 197, 197);
+  background-color: var(--grayishblue);
 }
 .page-wrapper {
   display: flex;
@@ -83,6 +90,7 @@ nav ul a {
 }
 #about p, #work #all_works, #contact .contact_media {
   width: 85%;
+  margin-left: 5%;
 }
 
 #work {
@@ -97,7 +105,8 @@ nav ul a {
   width: 100%;
   height: 450px;
   background-image: url(../images/02-portfolio-4.jpg);
-  border: 3px solid aqua;
+  border: 3px solid var(--grayishblue);
+  opacity: 0.7;
 }
 
 .other_ports {
@@ -109,9 +118,10 @@ nav ul a {
   margin-top: 10px;
   width: 49%;
   height: 200px;
-  border: 2px solid rgb(43, 174, 174);
+  border: 2px solid var(--grayishblue);
   background-image: url(../images/02-portfolio-1.jpg);
   background-size: cover;
+  opacity: 0.7;
 }
 .portfo_3 {
   background-image: url(../images/02-portfolio-2.jpg);
@@ -123,6 +133,14 @@ nav ul a {
 }
 .run_buddy {
   background-image: url(../images/02-run-buddy.jpg);
+}
+#all_works p {
+  text-align: center;
+  padding: auto;
+  width: 105px;
+  height: 50px;
+  background-color: var(--grayishblue);
+  margin-top: 25%;
 }
 #contact {
   display: flex;
